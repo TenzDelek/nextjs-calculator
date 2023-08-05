@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import "./calc.css";
-const page = () => {
+const Page = () => {
   const [cal,setCal]=useState("");
   const[result,setResult]=useState("");
   const op=['/','*','+','.','-'];
@@ -69,4 +69,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
